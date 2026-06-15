@@ -1,0 +1,102 @@
+{
+  "ticker": "MARUTHI.NS",
+  "event_type": "manual_scan",
+  "generated_at": "2026-05-15T22:02:44.754366+00:00",
+  "news": {
+    "ticker": "MARUTHI.NS",
+    "articles_fetched": 5,
+    "sentiment_score": -0.155,
+    "news_sentiment": -0.2,
+    "social_sentiment": -0.05,
+    "top_headlines": [
+      "How Chiranjeevi\u2019s Mana Shankara Vara Prasad Garu carried Telugu cinema through the first quarter of 2026",
+      "Hyderabad police crackdown on pan-India cyber fraud network, 32 bank officials among 52 held",
+      "Ola's full stack AI plans shrink on A-level exits, funding woes",
+      "Ola\u2019s fullstack AI ambition bites the dust amid funding constraint, leadership exits",
+      "Premji eyes Emergent bet; Krutrim plans unravel"
+    ],
+    "top_articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "The Indian Express"
+        },
+        "author": "Yashaswini Sri",
+        "title": "How Chiranjeevi\u2019s Mana Shankara Vara Prasad Garu carried Telugu cinema through the first quarter of 2026",
+        "description": "In the first quarter of 2026, Chiranjeevi delivered the biggest box-office success of his career, while films starring Prabhas and Pawan Kalyan incurred significant losses. Meanwhile, a modest Valentine\u2019s Day release outperformed all on return on investment.",
+        "url": "https://indianexpress.com/article/entertainment/telugu/chiranjeevi-mana-shankara-vara-prasad-garu-carried-telugu-cinema-through-first-quarter-of-2026-10644597/",
+        "urlToImage": "https://images.indianexpress.com/2026/04/Q1-telugu-cinema.jpg",
+        "publishedAt": "2026-04-19T12:30:45Z",
+        "content": "One megastar. One blockbuster. Forty-odd films. That sums up Telugu cinema in the first three months of 2026, and it is as lopsided as it sounds.The first quarter followed a pattern that is becoming \u2026 [+8009 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "PTI",
+        "title": "Hyderabad police crackdown on pan-India cyber fraud network, 32 bank officials among 52 held",
+        "description": "Under 'Operation Octopus 2.O', as many as 32 bank officials, 15 mule account holders and five middlemen were apprehended for complicity, Hyderabad Police Commissioner V C Sajjanar said in a release.",
+        "url": "https://economictimes.indiatimes.com/news/india/hyderabad-police-crackdown-on-pan-india-cyber-fraud-network-32-bank-officials-among-52-held/articleshow/130372369.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-130372386,width-1200,height-630,imgsize-77148,overlay-economictimes/articleshow.jpg",
+        "publishedAt": "2026-04-19T14:42:34Z",
+        "content": "Hyderabad: Hyderabad Police on Sunday said that they have dismantled a pan-India cyber fraud network involving bank officials by arresting 52 accused across nine states.Under 'Operation Octopus 2.O',\u2026 [+2207 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "Swathi Moorthy",
+        "title": "Ola's full stack AI plans shrink on A-level exits, funding woes",
+        "description": "Krutrim, Ola founder Bhavish Aggarwal's ambitious AI venture, has seen a significant leadership exodus and workforce reduction. Key AI and semiconductor leaders, along with over 60 linguistics staff, have departed as funding dried up, leading to the discontin\u2026",
+        "url": "https://economictimes.indiatimes.com/tech/technology/olas-full-stack-ai-plans-shrink-on-a-level-exits-funding-woes/articleshow/130835252.cms",
+        "urlToImage": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-18630,resizemode-75,msid-130835252/tech/technology/olas-full-stack-ai-plans-shrink-on-a-level-exits-funding-woes.jpg",
+        "publishedAt": "2026-05-06T00:30:00Z",
+        "content": "Ola Krutrims AI bulwark crumbled as the three key leaders, Chandra Khatri, Sunit S, and Raj Kiran, leaders of Krutrims AI initiatives, and close to 10 executives in its semiconductor arm quit the com\u2026 [+3376 chars]"
+      }
+    ],
+    "news_source": "newsapi"
+  },
+  "fundamentals": {
+    "ticker": "MARUTHI.NS",
+    "company_name": "MARUTHI.NS",
+    "sector": "Unknown",
+    "industry": "Unknown",
+    "description": "No description available.",
+    "pe_ratio": null,
+    "pb_ratio": null,
+    "market_cap_cr": null,
+    "debt_equity": null,
+    "roe": null,
+    "earnings_date": null,
+    "fii_dii_flow": {
+      "fii_net_crore": 943.56,
+      "dii_net_crore": 79.75,
+      "total_crore": 1023.31,
+      "fii_action": "BUYING",
+      "dii_action": "BUYING"
+    },
+    "is_mock": true
+  },
+  "technical": {},
+  "prediction": {
+    "ticker": "MARUTHI.NS",
+    "signal": "NEUTRAL",
+    "confidence": 0.5,
+    "price_target": 102.0,
+    "stop_loss": 98.0,
+    "risk_score": 0.0,
+    "var_1d_pct": 0.0,
+    "reasoning": "NEUTRAL signal for MARUTHI.NS: MACD bearish \u2013 weakening momentum; FIIs net buyers \u2013 institutional support; Dynamic engine score=0.0 \u2192 NEUTRAL (confidence=50.00%)",
+    "reasoning_chain": [
+      "Neutral sentiment (-0.15)",
+      "MACD bearish \u2013 weakening momentum",
+      "FIIs net buyers \u2013 institutional support",
+      "Dynamic engine score=0.0 \u2192 NEUTRAL (confidence=50.00%)"
+    ]
+  },
+  "agent_errors": {
+    "technical": "No price data returned for MARUTHI.NS"
+  }
+}

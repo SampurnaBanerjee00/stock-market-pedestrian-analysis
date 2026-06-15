@@ -1,0 +1,144 @@
+{
+  "ticker": "TCS.NS",
+  "event_type": "manual_scan",
+  "generated_at": "2026-05-16T03:34:24.465026+00:00",
+  "news": {
+    "ticker": "TCS.NS",
+    "articles_fetched": 8,
+    "sentiment_score": 0.115,
+    "news_sentiment": 0.125,
+    "social_sentiment": 0.093,
+    "summary": "News flow indicates positive sentiment. Key focus: Naver, TCS partner on AI and cloud in India during Korea-India summit.",
+    "top_headlines": [
+      "Naver, TCS partner on AI and cloud in India during Korea-India summit",
+      "India tech giants struggle to shake off $115 billion rout",
+      "India's HCLTech forecasts weak annual revenue growth as clients rein in discretionary spends",
+      "India's Infosys forecasts weak revenue growth as AI-driven caution dents IT spending",
+      "India's IT shares near three\u2011year low as OpenAI move revives AI fears"
+    ],
+    "top_articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Digitimes"
+        },
+        "author": "DIGITIMES",
+        "title": "Naver, TCS partner on AI and cloud in India during Korea-India summit",
+        "description": "Naver has signed a strategic partnership with Tata Consultancy Services (TCS) to jointly develop artificial intelligence (AI) and cloud services in India, marking one of the cooperation deals concluded during a Korea-India summit visit.",
+        "url": "https://www.digitimes.com/news/a20260422VL201/naver-tata-group-partnership-ai-digital-transformation-technology.html",
+        "urlToImage": "https://img.digitimes.com/newsshow/20260422vl201_files/2_r.jpg",
+        "publishedAt": "2026-04-22T01:30:15Z",
+        "content": "Keep me signed in\r\nSome subscribers prefer to save their log-in information so they do not have to enter their User ID and Password each time they visit the site. To activate this function, check the\u2026 [+285 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "Bloomberg",
+        "title": "India tech giants struggle to shake off $115 billion rout",
+        "description": "India's top software exporters are facing investor concerns over growth, with Infosys and HCL Technologies reporting results below expectations. This downturn, exacerbated by a weak global economy and AI disruption, has led to a significant drop in the IT sec\u2026",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/india-tech-giants-struggle-to-shake-off-115-billion-rout/articleshow/130541628.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-130541625,width-1200,height-630,imgsize-26662,overlay-etmarkets/articleshow.jpg",
+        "publishedAt": "2026-04-27T01:20:27Z",
+        "content": "Earnings from Indias bellwether software services exporters have reinforced investor concerns about the sectors growth prospects, signaling that the downturn in their stocks has further to run.Infosy\u2026 [+3322 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Yahoo Entertainment"
+        },
+        "author": "Sai Ishwarbharath B and Haripriya Suresh",
+        "title": "India's HCLTech forecasts weak annual revenue growth as clients rein in discretionary spends",
+        "description": "India's HCLTech forecast revenue growth of 1%-4% for fiscal 2027 on Tuesday, below analysts' expectations of 3%-5%, \u200cas clients kept a tight lid on...",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/indias-hcltech-misses-q4-revenue-123559903.html",
+        "urlToImage": "https://s.yimg.com/os/en/reuters-finance.com/9217638bd4042e3778bf1905450dc4ee",
+        "publishedAt": "2026-04-21T12:35:59Z",
+        "content": "By Sai Ishwarbharath B and Haripriya Suresh\r\nBENGALURU, April 21 (Reuters) - India's HCLTech forecast revenue growth of 1%-4% for fiscal 2027 on Tuesday, below analysts' expectations of 3%-5%, as cli\u2026 [+2393 chars]"
+      }
+    ],
+    "news_source": "newsapi"
+  },
+  "fundamentals": {
+    "ticker": "TCS.NS",
+    "company_name": "Tata Consultancy Services Limited",
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "description": "Tata Consultancy Services Limited provides information technology (IT) and IT enabled services in the Americas, Europe, India, and internationally. The company provides TCS ADD, a suite of AI powered life sciences platforms; TCS BaNCS, a financial services platform; TCS BFSI Platforms, a cloud-native, as-a-service digital ecosystem for insurers and financial firms; TCS Chroma, a cloud-based human resource management system platform; TCS Customer Intelligence & Insights, an AI-driven customer analytics and real-time CDP solution; TCS ERP on Cloud, an SAP platform as a service; ignio, a cognitive automation software product; TCS iON, a learning ecosystem; and TCS HOBS, a cloud-native, catalog-centric platform for personalization of products and processes. It also offers TCS Intelligent Urban Exchange for enterprises and smart cities; TCS OmniStore, a retail commerce platform; TCS Optumera, a retail-connected strategic intelligence platform; TCS Tap, a platform for intelligent procurement; Quartz, a distributed ledger technology; TCS TwinX, an enterprise digital twin platform; TCS MasterCraft, an AI-driven cognitive automation product; Jile, an enterprise agile planning and delivery tool; and TCS DigiBOLT, an end-to-end, organization-wide enterprise platform. In addition, the company provides cloud, cognitive business, consulting, cybersecurity, data and analytics, enterprise solutions, IoT and digital engineering, TCS interactive, artificial intelligence, network solutions, and sustainability services. It serves banking; capital markets; consumer packaged goods and distribution; communications, media, and information services; education; energy, resources, and utilities; healthcare; high tech; insurance; life sciences; manufacturing; public services; retail; and travel and logistics industries. The company was founded in 1968 and is based in Mumbai, India. Tata Consultancy Services Limited is a subsidiary of Tata Sons Private Limited.",
+    "pe_ratio": 16.5015,
+    "pb_ratio": 7.2165,
+    "market_cap_cr": 819134.99,
+    "debt_equity": 10.389,
+    "roe": 48.4,
+    "earnings_date": null,
+    "fii_dii_flow": {
+      "fii_net_crore": 4491.55,
+      "dii_net_crore": 973.71,
+      "total_crore": 5465.26,
+      "fii_action": "BUYING",
+      "dii_action": "BUYING"
+    },
+    "is_mock": true
+  },
+  "technical": {
+    "ticker": "TCS.NS",
+    "current_price": 2264.0,
+    "prev_close": 2246.0,
+    "day_change_pct": 0.8,
+    "price_history": [
+      2579.6,
+      2610.5,
+      2538.5,
+      2521.8,
+      2396.9,
+      2447.6,
+      2444.7,
+      2474.7,
+      2473.9,
+      2473.9,
+      2431.3,
+      2427.3,
+      2435.4,
+      2401.4,
+      2394.4,
+      2392.9,
+      2300.3,
+      2272.8,
+      2246.0,
+      2264.0
+    ],
+    "volatility": 0.271,
+    "var_1d_pct": 3.51,
+    "rsi": 29.8868,
+    "macd": -61.1532,
+    "macd_signal": -40.9646,
+    "macd_bullish": false,
+    "sma_20": 2426.395,
+    "sma_50": 2457.038,
+    "sma_200": null,
+    "bb_upper": 2620.7245,
+    "bb_lower": 2232.0655,
+    "volume_avg_ratio": 0.9174,
+    "trend": "BEARISH"
+  },
+  "prediction": {
+    "ticker": "TCS.NS",
+    "signal": "NEUTRAL",
+    "confidence": 0.55,
+    "price_target": 2309.28,
+    "stop_loss": 2218.72,
+    "risk_score": 0.271,
+    "var_1d_pct": 3.51,
+    "reasoning": "NEUTRAL signal for TCS.NS: FIIs net buyers \u2013 institutional support; P/E=16.5 \u2013 undervalued vs market average; Dynamic engine score=0.5 \u2192 NEUTRAL (confidence=55.00%)",
+    "reasoning_chain": [
+      "Neutral sentiment (0.12)",
+      "RSI=29.9 oversold \u2013 potential reversal upward",
+      "MACD bearish \u2013 weakening momentum",
+      "Price below SMA20 < SMA50 \u2013 confirmed downtrend",
+      "FIIs net buyers \u2013 institutional support",
+      "P/E=16.5 \u2013 undervalued vs market average",
+      "Dynamic engine score=0.5 \u2192 NEUTRAL (confidence=55.00%)"
+    ]
+  },
+  "agent_errors": {}
+}

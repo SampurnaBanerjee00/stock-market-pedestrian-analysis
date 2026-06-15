@@ -1,0 +1,103 @@
+{
+  "ticker": "MAHINDRA AND MAHINDRA LTD.NS",
+  "event_type": "manual_scan",
+  "generated_at": "2026-05-16T03:06:54.767891+00:00",
+  "news": {
+    "ticker": "MAHINDRA AND MAHINDRA LTD.NS",
+    "articles_fetched": 8,
+    "sentiment_score": 0.229,
+    "news_sentiment": 0.292,
+    "social_sentiment": 0.083,
+    "summary": "News flow indicates positive sentiment. Key focus: Q4 Results Today Live: Infosys, Adani Energy, Cyient, Aditya Birla Sun Life AMC, Himadri Speciality, Tata Capital, Union Bank of India to announce Q4 results, Trent, Tech Mahindra, LTTS, OFSS, BCCL, Havells in focus.",
+    "top_headlines": [
+      "Q4 Results Today Live: Infosys, Adani Energy, Cyient, Aditya Birla Sun Life AMC, Himadri Speciality, Tata Capital, Union Bank of India to announce Q4 results, Trent, Tech Mahindra, LTTS, OFSS, BCCL, Havells in focus",
+      "Q4 Results Today Highlights: Adani Green Energy Q4 con. profit soars, Shriram Finance, Hindustan Zinc, IndusInd & Chennai Petroleum Q4 profit rise, Reliance, M&M Financial, Lodha Developers announce Q4 results, Infosys, Adani Energy, Cyient shares fall after Q4",
+      "Q4 Results Today Live: Groww, PNB Housing, Bank of Maharashtra, Navkar Corporation, Nelco, Indosolar, SML Mahindra, Indbank Merchant to announce Q4, HDFC Bank, ICICI, Yes Bank, Jio Financial shares in focus",
+      "Q4 Results Today Highlights: Trent Q4 profit up y-o-y, Tech Mahindra & Havells Q4 profit rise, SBI Life profit dips y-o-y, Tata Comm profit falls, LTTS profits up 6.7%",
+      "Q4 Results Highlights: BoM & Groww Q4 profit soar, Navkar Corporation turns profitable, PNB Housing, Nelco, Indosolar, Indbank Merchant to announce Q4, ICICI & HDFC Bank stocks end flat, Yes Bank shares down"
+    ],
+    "top_articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "Team BL, KS Badri Narayanan",
+        "title": "Q4 Results Today Live: Infosys, Adani Energy, Cyient, Aditya Birla Sun Life AMC, Himadri Speciality, Tata Capital, Union Bank of India to announce Q4 results, Trent, Tech Mahindra, LTTS, OFSS, BCCL, Havells in focus",
+        "description": "Q4 Results\u00a0Today, 23rd April 2026 Live Updates: Find all the latest Q4 results 2026 updates of Aditya Birla Sun Life AMC Ltd, Adani Energy Solutions Ltd, Aurum PropTech Ltd, BlueStone Jewellery and Lifestyle Ltd, Choice International Ltd, CIE Automotive India\u2026",
+        "url": "https://www.thehindubusinessline.com/markets/q4-results-today-live-updates-infosys-adani-energy-cyient-adityabirla-sun-life-tata-capital-union-bank-trent-tech-mahindra-havells-sbi-life-ofss-bccl-results-23-april-2026/article70892338.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/s3qlcq/article70892341.ece/alternates/LANDSCAPE_1200/PO12_Planning.jpg",
+        "publishedAt": "2026-04-23T03:34:44Z",
+        "content": "Q4 Results Today, April 23, 2026, Live Updates: Find all the latest Q4 results 2026 updates of Aditya Birla Sun Life AMC Ltd, Adani Energy Solutions Ltd, Aurum PropTech Ltd, BlueStone Jewellery and L\u2026 [+779 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "Team BL, KS Badri Narayanan",
+        "title": "Q4 Results Today Highlights: Adani Green Energy Q4 con. profit soars, Shriram Finance, Hindustan Zinc, IndusInd & Chennai Petroleum Q4 profit rise, Reliance, M&M Financial, Lodha Developers announce Q4 results, Infosys, Adani Energy, Cyient shares fall after Q4",
+        "description": "Q4 Results\u00a0Today, 24th April 2026 Highlights: Find all the latest Q4 results 2026 updates of Adani Green Energy Ltd, Atishay Ltd, Atul Ltd, Bhansali Engineering Polymers Ltd, Can Fin Homes Ltd, Chennai Petroleum Corporation Ltd, DCB Bank Ltd, Dharni Capital S\u2026",
+        "url": "https://www.thehindubusinessline.com/markets/q4-results-today-highlights-reliance-adani-green-shriram-finance-hindustan-zinc-indusind-mampm-financial-chennai-petroleum-lodha-infosys-adani-energy-results-24-april-2026/article70897085.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/tiof3k/article70900297.ece/alternates/LANDSCAPE_1200/PO30_Charts.jpg",
+        "publishedAt": "2026-04-24T15:44:40Z",
+        "content": "<li></li>\r\nApril 24, 2026 21:11This live blog is now closed.\r\n<li></li>\r\nApril 24, 2026 20:41IndusInd Bank logs 533 cr profit in Q4FY26 against a huge loss in Q4FY25\r\nIndusInd Bank logs 533 cr profit\u2026 [+24373 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BusinessLine"
+        },
+        "author": "KS Badri Narayanan, Team BL",
+        "title": "Q4 Results Today Live: Groww, PNB Housing, Bank of Maharashtra, Navkar Corporation, Nelco, Indosolar, SML Mahindra, Indbank Merchant to announce Q4, HDFC Bank, ICICI, Yes Bank, Jio Financial shares in focus",
+        "description": "Q4 Results\u00a0Today, 20th April 2026 Live Updates: Find all the latest Q4 results 2026 updates of Axita Cotton Ltd, Binny Ltd, Billionbrains Garage Ventures Ltd, Indbank Merchant Banking Services Ltd, Jupiter Infomedia Ltd, Bank of Maharashtra, Navkar Corporatio\u2026",
+        "url": "https://www.thehindubusinessline.com/markets/q4-results-today-live-updates-groww-pnb-housing-sml-mahindra-bank-of-maharashtra-hdfc-icici-yes-bank-jio-financial-mastek-results-20-april-2026/article70877275.ece",
+        "urlToImage": "https://bl-i.thgim.com/public/incoming/n594d9/article70877274.ece/alternates/LANDSCAPE_1200/PO07_Analysing.jpg",
+        "publishedAt": "2026-04-20T03:42:10Z",
+        "content": "Q4 Results Today, April 20, 2026, Live Updates: Find all the latest Q4 results 2026 updates of Axita Cotton Ltd, Binny Ltd, Billionbrains Garage Ventures Ltd, Indbank Merchant Banking Services Ltd, J\u2026 [+335 chars]"
+      }
+    ],
+    "news_source": "newsapi"
+  },
+  "fundamentals": {
+    "ticker": "MAHINDRA AND MAHINDRA LTD.NS",
+    "company_name": "MAHINDRA AND MAHINDRA LTD.NS",
+    "sector": "Unknown",
+    "industry": "Unknown",
+    "description": "No description available.",
+    "pe_ratio": null,
+    "pb_ratio": null,
+    "market_cap_cr": null,
+    "debt_equity": null,
+    "roe": null,
+    "earnings_date": null,
+    "fii_dii_flow": {
+      "fii_net_crore": 4095.95,
+      "dii_net_crore": 414.29,
+      "total_crore": 4510.24,
+      "fii_action": "BUYING",
+      "dii_action": "BUYING"
+    },
+    "is_mock": true
+  },
+  "technical": {},
+  "prediction": {
+    "ticker": "MAHINDRA AND MAHINDRA LTD.NS",
+    "signal": "NEUTRAL",
+    "confidence": 0.5,
+    "price_target": 102.0,
+    "stop_loss": 98.0,
+    "risk_score": 0.0,
+    "var_1d_pct": 0.0,
+    "reasoning": "NEUTRAL signal for MAHINDRA AND MAHINDRA LTD.NS: MACD bearish \u2013 weakening momentum; FIIs net buyers \u2013 institutional support; Dynamic engine score=0.0 \u2192 NEUTRAL (confidence=50.00%)",
+    "reasoning_chain": [
+      "Neutral sentiment (0.23)",
+      "MACD bearish \u2013 weakening momentum",
+      "FIIs net buyers \u2013 institutional support",
+      "Dynamic engine score=0.0 \u2192 NEUTRAL (confidence=50.00%)"
+    ]
+  },
+  "agent_errors": {
+    "technical": "No price data returned for MAHINDRA AND MAHINDRA LTD.NS"
+  }
+}

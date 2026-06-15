@@ -1,0 +1,143 @@
+{
+  "ticker": "ICICIBANK.NS",
+  "event_type": "manual_scan",
+  "generated_at": "2026-05-15T23:03:51.121924+00:00",
+  "news": {
+    "ticker": "ICICIBANK.NS",
+    "articles_fetched": 8,
+    "sentiment_score": 0.21,
+    "news_sentiment": 0.125,
+    "social_sentiment": 0.407,
+    "summary": "News flow indicates positive sentiment. Key focus: Sensex falls 0.06%, Nifty 50 down by 0.13% as Iran ceasefire uncertainty offsets earnings optimism.",
+    "top_headlines": [
+      "Sensex falls 0.06%, Nifty 50 down by 0.13% as Iran ceasefire uncertainty offsets earnings optimism",
+      "Wipro among 18 stocks from which these 7 mutual funds made complete exit in March. Check details",
+      "Kotak\u2019s asset quality gains drive robust Q4 show: Dnyanada Vaidya",
+      "Market outlook: Why the Nifty breakout failed and how to trade Vedanta & Bank Nifty this week",
+      "Market, rupee fortunes may prove fickle amid Iran flareup"
+    ],
+    "top_articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "The Indian Express"
+        },
+        "author": "Express Web Desk",
+        "title": "Sensex falls 0.06%, Nifty 50 down by 0.13% as Iran ceasefire uncertainty offsets earnings optimism",
+        "description": "The price of Brent crude \u200crose to $97 \u200ba \u200bbarrel with minimum transit of \u200bships through the Strait of Hormuz, even as the traders were hopeful for a resolution to the war.",
+        "url": "https://indianexpress.com/article/business/indian-shares-change-little-as-iran-ceasefire-uncertainty-offsets-earnings-optimism-10645822/",
+        "urlToImage": "https://images.indianexpress.com/2025/07/bse_622b35.jpg",
+        "publishedAt": "2026-04-20T04:13:26Z",
+        "content": "Indian markets showed little signs of change in early trade on Monday, as a fragile ceasefire in the Middle East offset the upbeat earnings from private banks during the weekend.\r\nThe Nifty 50 plumme\u2026 [+501 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Economictimes.com"
+        },
+        "author": "Agencies",
+        "title": "Wipro among 18 stocks from which these 7 mutual funds made complete exit in March. Check details",
+        "description": "Seven mutual funds made complete exit from 18 stocks in March. AMCs add or exit stocks to actively manage their portfolios. Here is a detailed breakup, according to a report by Nuvama Institutional Equities. Complete sell-off",
+        "url": "https://m.economictimes.com/mf/analysis/wipro-among-18-stocks-from-which-these-7-mutual-funds-made-complete-exit-in-march-check-details/complete-sell-off/slideshow/130349841.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-130349841,width-1200,height-900,overlay-etwealthmutualfunds/slideshow.jpg",
+        "publishedAt": "2026-04-18T08:18:19Z",
+        "content": "Apr 18, 2026, 01:52:23 PM IST\r\nSeven mutual funds made complete exit from 18 stocks in March. AMCs add or exit stocks to actively manage their portfolios. Here is a detailed breakup, according to a r\u2026 [+981 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "Anupam Nagar",
+        "title": "Kotak\u2019s asset quality gains drive robust Q4 show: Dnyanada Vaidya",
+        "description": "Kotak Mahindra Bank delivered strong Q4 results with unexpected margin expansion and declining credit costs. While management anticipates flattish margins ahead due to rising deposit rates, analysts believe growth in unsecured lending and CASA deposits, along\u2026",
+        "url": "https://economictimes.indiatimes.com/markets/expert-view/kotaks-asset-quality-gains-drive-robust-q4-show-dnyanada-vaidya/articleshow/130755949.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-130755717,width-1200,height-630,imgsize-73254,overlay-etmarkets/articleshow.jpg",
+        "publishedAt": "2026-05-04T05:37:28Z",
+        "content": "Kotak Mahindra Bank delivered a strong set of Q4 results, with multiple positives across key metrics. Margins expanded unexpectedly, credit costs declined, and most operating line items showed a posi\u2026 [+3514 chars]"
+      }
+    ],
+    "news_source": "newsapi"
+  },
+  "fundamentals": {
+    "ticker": "ICICIBANK.NS",
+    "company_name": "ICICI Bank Limited",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "description": "ICICI Bank Limited, together with its subsidiaries, engages in the provision of various banking and financial services to retail and corporate customers in India and internationally. The company operates through Retail Banking, Wholesale Banking, Treasury, Other Banking, Life Insurance, General Insurance, and Others segments. It offers savings, salary, pension, current, trade, escrow, foreign currency, and vostro accounts, as well as time, fixed, recurring, and security deposits. The company also provides home, car, two-wheeler, personal, education, gold, and commercial business loans, as well as loans against securities, shares, mutual funds, and property; working capital finance, term loans, collateral free loans, loans without financials, finance for importers and exporters, and overdraft facilities, as well as loans for new entities and card swipes; and credit, debit, prepaid, travel, forex, and corporate cards. In addition, it offers pockets wallet; fixed income products; investment products, such as mutual funds, gold monetization schemes, initial public offerings, and other online investment services; and agri and rural business, farmer finance, tractor loans, and micro banking services. Further, the company provides portfolio management, trade, foreign exchange, locker, private and NRI banking, and cash management services; family wealth and demat accounts; commercial and investment banking, capital market, custodial, and institutional banking services; general, life health, personal accident, fire, travel, and motor insurance products; and internet, mobile, and phone banking services. Additionally, it offers securities investment, broking, trading, and underwriting services; and merchant banking, trusteeship, housing finance, pension fund management, asset management, investment advisory, points of presence, and private equity/venture capital fund management services. The company was founded in 1955 and is headquartered in Mumbai, India.",
+    "pe_ratio": 16.6466,
+    "pb_ratio": 2.4547,
+    "market_cap_cr": 892120.6,
+    "debt_equity": null,
+    "roe": 16.36,
+    "earnings_date": null,
+    "fii_dii_flow": {
+      "fii_net_crore": -1246.42,
+      "dii_net_crore": 3883.87,
+      "total_crore": 2637.45,
+      "fii_action": "SELLING",
+      "dii_action": "BUYING"
+    },
+    "is_mock": true
+  },
+  "technical": {
+    "ticker": "ICICIBANK.NS",
+    "current_price": 1246.0,
+    "prev_close": 1235.6,
+    "day_change_pct": 0.84,
+    "price_history": [
+      1346.8,
+      1356.2,
+      1388.4,
+      1367.6,
+      1348.0,
+      1326.2,
+      1314.1,
+      1292.0,
+      1281.0,
+      1263.4,
+      1263.4,
+      1270.8,
+      1251.3,
+      1279.5,
+      1279.0,
+      1264.8,
+      1266.4,
+      1240.3,
+      1235.6,
+      1246.0
+    ],
+    "volatility": 0.202,
+    "var_1d_pct": 2.32,
+    "rsi": 40.143,
+    "macd": null,
+    "macd_signal": null,
+    "macd_bullish": false,
+    "sma_20": null,
+    "sma_50": null,
+    "sma_200": null,
+    "bb_upper": null,
+    "bb_lower": null,
+    "volume_avg_ratio": 0.6904,
+    "trend": "NEUTRAL"
+  },
+  "prediction": {
+    "ticker": "ICICIBANK.NS",
+    "signal": "NEUTRAL",
+    "confidence": 0.55,
+    "price_target": 1270.92,
+    "stop_loss": 1221.08,
+    "risk_score": 0.202,
+    "var_1d_pct": 2.32,
+    "reasoning": "NEUTRAL signal for ICICIBANK.NS: FIIs net sellers \u2013 institutional caution; P/E=16.6 \u2013 undervalued vs market average; Dynamic engine score=-0.5 \u2192 NEUTRAL (confidence=55.00%)",
+    "reasoning_chain": [
+      "Neutral sentiment (0.21)",
+      "RSI=40.1 in healthy range",
+      "MACD bearish \u2013 weakening momentum",
+      "FIIs net sellers \u2013 institutional caution",
+      "P/E=16.6 \u2013 undervalued vs market average",
+      "Dynamic engine score=-0.5 \u2192 NEUTRAL (confidence=55.00%)"
+    ]
+  },
+  "agent_errors": {}
+}

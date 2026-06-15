@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EQUITY TERMINAL | TIMELESS CLASSIC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f172a;
+            --surface: rgba(30, 41, 59, 0.7);
+            --border: rgba(255, 255, 255, 0.08);
+            --primary: #60a5fa;
+            --success: #10b981;
+            --danger: #f43f5e;
+            --warning: #f59e0b;
+            --text-title: 'Playfair Display', serif;
+            --text-main: 'Inter', sans-serif;
+            --text-mono: 'JetBrains Mono', monospace;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: var(--text-main); }
+        body { background: var(--bg); color: #f1f5f9; min-height: 100vh; overflow-x: hidden; }
+
+        header {
+            height: 70px; padding: 0 2rem;
+            display: flex; align-items: center; justify-content: space-between;
+            background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border);
+            position: sticky; top: 0; z-index: 100;
+        }
+
+        .brand { font-family: var(--text-title); font-size: 1.4rem; font-weight: 700; font-style: italic; }
+
+        .search-box { flex: 0 1 400px; display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); border-radius: 6px; padding: 4px 6px 4px 15px; }
+        .search-box input { width: 100%; background: none; border: none; padding: 6px 0; color: white; outline: none; font-size: 0.85rem; }
+
+        main { display: grid; grid-template-columns: 300px 1fr 300px; gap: 1.5rem; padding: 1.5rem; max-width: 1800px; margin: 0 auto; }
+
+        .pane { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; }
+        
+        .section-label { font-family: var(--text-title); font-size: 1rem; font-weight: 700; margin-bottom: 1rem; color: #94a3b8; }
+
+        .hero-ticker { font-family: var(--text-title); font-size: 3rem; font-weight: 700; line-height: 1; }
+        .hero-price { font-family: var(--text-mono); font-size: 2.5rem; font-weight: 500; margin: 1rem 0; }
+
+        .grid-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin-bottom: 2rem; }
+        .stat-item { padding: 1rem; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid var(--border); }
+        .stat-label { font-size: 0.6rem; font-weight: 700; color: #64748b; text-transform: uppercase; margin-bottom: 5px; }
+        .stat-value { font-family: var(--text-mono); font-size: 0.9rem; }
+
+        .hidden { display: none !important; }
+        .shimmer { animation: pulse 1.5s infinite; opacity: 0.5; }
+        @keyframes pulse { 0% { opacity: 0.3; } 50% { opacity: 0.6; } 100% { opacity: 0.3; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brand">Neo Terminal</div>
+        <div class="search-box">
+            <input type="text" id="ticker-input" list="ticker-suggestions" placeholder="Query Assets..." autocomplete="off">
+            <datalist id="ticker-suggestions">
+                <option value="RELIANCE">Reliance Industries</option>
+                <option value="TCS">Tata Consultancy Services</option>
+                <option value="HDFCBANK">HDFC Bank</option>
+                <option value="INFY">Infosys</option>
+                <option value="ICICIBANK">ICICI Bank</option>
+            </datalist>
+            <button id="scan-btn" style="background: var(--primary); color: #0f172a; border: none; padding: 6px 16px; border-radius: 4px; font-weight: 700; font-size: 0.7rem; cursor: pointer;">ANALYZE</button>
+        </div>
+        <button id="reset-btn" style="background: none; border: 1px solid var(--border); color: #64748b; padding: 8px 12px; border-radius: 4px; font-size: 0.7rem; cursor: pointer;">RESET</button>
+    </header>
+
+    <main>
+        <div class="side-left">
+            <div class="pane" style="margin-bottom: 1rem;">
+                <div class="stat-label">NIFTY 50</div>
+                <div id="nifty-price" style="font-family: var(--text-mono); font-size: 1.2rem;">--</div>
+                <div id="nifty-change" style="font-size: 0.7rem;">--</div>
+            </div>
+
+            <div class="pane" style="margin-bottom: 1rem;">
+                <div class="stat-label">BSE SENSEX</div>
+                <div id="sensex-price" style="font-family: var(--text-mono); font-size: 1.2rem;">--</div>
+                <div id="sensex-change" style="font-size: 0.7rem;">--</div>
+            </div>
+
+            <div class="pane" id="profile-pane">
+                <div class="section-label" style="font-size: 0.8rem;">Company Profile</div>
+                <div id="profile-name" style="font-family: var(--text-title); font-size: 1.1rem; font-weight: 700; margin-bottom: 8px;">--</div>
+                <div id="profile-desc" style="font-size: 0.75rem; color: #94a3b8; line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 10; -webkit-box-orient: vertical; overflow: hidden; margin-bottom: 15px;">Select a ticker to see a deep-dive business summary.</div>
+                
+                <div style="border-top: 1px solid var(--border); padding-top: 12px; display: flex; flex-direction: column; gap: 8px;">
+                    <div style="display: flex; justify-content: space-between; font-size: 0.65rem;">
+                        <span style="color: #64748b;">MARKET CAP</span><span id="stat-mcap" style="font-family: var(--text-mono); color: white;">--</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; font-size: 0.65rem;">
+                        <span style="color: #64748b;">P/E RATIO</span><span id="stat-pe" style="font-family: var(--text-mono); color: white;">--</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; font-size: 0.65rem;">
+                        <span style="color: #64748b;">DIV YIELD</span><span id="stat-yield" style="font-family: var(--text-mono); color: white;">--</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="center-content">
+            <div class="pane" id="main-pane" style="min-height: 700px; position: relative;">
+                <div id="no-data" style="position: absolute; inset: 0; display: flex; justify-content: center; align-items: center; color: #64748b; font-size: 0.8rem; letter-spacing: 0.2em;">TERMINAL READY</div>
+                
+                <div id="processing" class="hidden" style="position: absolute; inset: 0; background: var(--bg); display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 10;">
+                    <div class="shimmer" style="font-family: var(--text-title); font-size: 1.5rem; font-style: italic;">Syncing Intelligence...</div>
+                </div>
+
+                <div id="result-view" class="hidden">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2rem;">
+                        <div>
+                            <h1 id="hero-ticker" class="hero-ticker">--</h1>
+                            <p id="company-sector" style="font-size: 0.8rem; color: #64748b; margin-top: 5px;">--</p>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="stat-label">Market Signal</div>
+                            <div id="hero-signal" style="font-family: var(--text-title); font-size: 2rem; font-weight: 700;">--</div>
+                        </div>
+                    </div>
+
+                    <div id="live-price" class="hero-price">₹--</div>
+                    <div id="live-change" style="font-size: 1rem; margin-top: -1.5rem; margin-bottom: 2rem;">--</div>
+
+                    <div style="height: 200px; margin-bottom: 2rem; border-bottom: 1px solid var(--border);">
+                        <svg id="main-svg" width="100%" height="100%" style="overflow: visible;"></svg>
+                    </div>
+
+                    <div class="grid-stats">
+                        <div class="stat-item"><div class="stat-label">Bullish Target</div><div id="stat-target" class="stat-value">--</div></div>
+                        <div class="stat-item"><div class="stat-label">Bearish Stop</div><div id="stat-stop" class="stat-value">--</div></div>
+                        <div class="stat-item"><div class="stat-label">Volatility</div><div id="stat-risk" class="stat-value">--</div></div>
+                        <div class="stat-item"><div class="stat-label">95% 1D VaR</div><div id="stat-var" class="stat-value">--</div></div>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1.5rem; margin-top: 3rem; border-top: 1px solid var(--border); padding-top: 2rem;">
+                        <div>
+                            <div class="section-label">Investment Thesis</div>
+                            <p id="reasoning-text" style="font-size: 0.8rem; line-height: 1.7; color: #94a3b8;"></p>
+                        </div>
+                        <div>
+                            <div class="section-label">Top Headlines</div>
+                            <div id="news-list"></div>
+                        </div>
+                        <div>
+                            <div class="section-label">News Narrative</div>
+                            <p id="news-summary" style="font-size: 0.8rem; line-height: 1.7; color: #94a3b8; font-style: italic;"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="side-right">
+            <div class="section-label">Watchlist</div>
+            <div id="watchlist-container"></div>
+        </div>
+    </main>
+
+    <script>
+        const elements = {
+            tickerInput: document.getElementById('ticker-input'),
+            scanBtn: document.getElementById('scan-btn'),
+            noData: document.getElementById('no-data'),
+            processing: document.getElementById('processing'),
+            resultView: document.getElementById('result-view'),
+            heroSignal: document.getElementById('hero-signal'),
+            heroTicker: document.getElementById('hero-ticker'),
+            livePrice: document.getElementById('live-price'),
+            liveChange: document.getElementById('live-change'),
+            reasoningText: document.getElementById('reasoning-text'),
+            newsList: document.getElementById('news-list'),
+            newsSummary: document.getElementById('news-summary'),
+            watchlist: document.getElementById('watchlist-container'),
+            statMcap: document.getElementById('stat-mcap'),
+            statPe: document.getElementById('stat-pe'),
+            statYield: document.getElementById('stat-yield'),
+            mainSvg: document.getElementById('main-svg')
+        };
+
+        async function init() {
+            updateIndices();
+            loadWatchlist();
+            checkLatest();
+            setInterval(updateIndices, 30000);
+        }
+
+        async function updateIndices() {
+            try {
+                const resp = await fetch('/api/indices');
+                if (!resp.ok) return;
+                const data = await resp.json();
+                const upd = (id, p, c, pt) => {
+                    const priceEl = document.getElementById(`${id}-price`);
+                    const changeEl = document.getElementById(`${id}-change`);
+                    if (priceEl) priceEl.innerText = (p || 0).toLocaleString();
+                    if (changeEl) {
+                        changeEl.innerText = `${c >= 0 ? '+' : ''}${pt || 0}%`;
+                        changeEl.style.color = c >= 0 ? 'var(--success)' : 'var(--danger)';
+                    }
+                };
+                if (data.nifty) upd('nifty', data.nifty.price, data.nifty.change, data.nifty.pct);
+                if (data.sensex) upd('sensex', data.sensex.price, data.sensex.change, data.sensex.pct);
+            } catch (e) { console.error("Index Update Error:", e); }
+        }
+
+        async function loadWatchlist() {
+            try {
+                const resp = await fetch('/watchlist');
+                const data = await resp.json();
+                elements.watchlist.innerHTML = (data.watchlist || []).map(t => `
+                    <div style="padding: 10px; border-bottom: 1px solid var(--border); cursor: pointer;" onclick="elements.tickerInput.value='${t}';elements.scanBtn.click()">
+                        <span style="font-weight: 700; font-size: 0.8rem;">${t}</span>
+                    </div>
+                `).join('');
+            } catch (e) { console.error("Watchlist Load Error:", e); }
+        }
+
+        async function checkLatest() {
+            try {
+                const resp = await fetch('/signals/latest');
+                if (resp.ok) renderResult(await resp.json());
+            } catch (e) { console.error("Check Latest Error:", e); }
+        }
+
+        function renderResult(data) {
+            try {
+                if (!data) return;
+                
+                // Show elements
+                elements.noData.classList.add('hidden');
+                elements.processing.classList.add('hidden');
+                elements.resultView.classList.remove('hidden');
+
+                // Hero Data
+                elements.heroTicker.innerText = data.ticker || '--';
+                const pred = data.prediction || {};
+                elements.heroSignal.innerText = pred.signal || 'HOLD';
+                elements.heroSignal.style.color = (pred.signal && pred.signal.includes('BUY')) ? 'var(--success)' : 'var(--danger)';
+                
+                // Fundamentals
+                const fund = data.fundamentals || {};
+                document.getElementById('company-sector').innerText = `${fund.sector || 'N/A'} • ${fund.industry || 'N/A'}`;
+                document.getElementById('profile-name').innerText = fund.name || data.ticker;
+                document.getElementById('profile-desc').innerText = fund.business_summary || "No description available.";
+                
+                elements.statMcap.innerText = fund.market_cap ? (fund.market_cap / 1e7).toFixed(0) + ' Cr' : '--';
+                elements.statPe.innerText = fund.trailing_pe ? fund.trailing_pe.toFixed(2) : '--';
+                elements.statYield.innerText = fund.dividend_yield ? (fund.dividend_yield * 100).toFixed(2) + '%' : '0.00%';
+
+                // Stats
+                document.getElementById('stat-target').innerText = pred.price_target ? '₹' + pred.price_target : '--';
+                document.getElementById('stat-stop').innerText = pred.stop_loss ? '₹' + pred.stop_loss : '--';
+                document.getElementById('stat-risk').innerText = pred.risk_score || '--';
+                document.getElementById('stat-var').innerText = (pred.var_1d_pct || '0') + '%';
+                
+                // Thesis
+                elements.reasoningText.innerText = pred.reasoning || "AI analysis pending for this asset.";
+
+                // News
+                const news = data.news || {};
+                if (news.top_articles && news.top_articles.length > 0) {
+                    elements.newsList.innerHTML = news.top_articles.slice(0, 3).map(art => `
+                        <div style="padding: 10px 0; border-bottom: 1px solid var(--border);">
+                            <a href="${art.url}" target="_blank" style="color:white; font-size:0.75rem; text-decoration:none; font-weight:500; display:block; margin-bottom:4px;">${art.title || 'Untitled Article'}</a>
+                            <span style="font-size:0.55rem; color:#64748b; text-transform:uppercase;">${(art.source && art.source.name) ? art.source.name : 'Market News'}</span>
+                        </div>
+                    `).join('');
+                } else {
+                    elements.newsList.innerHTML = '<div style="color:#64748b; font-size:0.7rem; padding-top:10px;">No recent headlines found.</div>';
+                }
+
+                // Narrative
+                if (news.summary && news.summary.trim().length > 5) {
+                    elements.newsSummary.innerText = news.summary;
+                } else if (news.top_articles && news.top_articles.length > 0) {
+                    elements.newsSummary.innerText = "The news landscape shows active movement. Synthesis in progress...";
+                } else {
+                    elements.newsSummary.innerText = "The news landscape for this asset is currently quiet.";
+                }
+
+                startPricePolling(data.ticker);
+            } catch (e) {
+                console.error("Rendering Error:", e);
+                elements.processing.classList.add('hidden');
+                alert("Rendering failed. See console for details.");
+            }
+        }
+
+        function startPricePolling(ticker) {
+            updatePrice(ticker);
+            if (window.priceInterval) clearInterval(window.priceInterval);
+            window.priceInterval = setInterval(() => updatePrice(ticker), 5000);
+        }
+
+        async function updatePrice(ticker) {
+            try {
+                const resp = await fetch(`/api/price/${ticker}`);
+                if (!resp.ok) return;
+                const data = await resp.json();
+                if (elements.livePrice) elements.livePrice.innerText = '₹' + (data.price || 0).toLocaleString();
+                if (elements.liveChange) {
+                    elements.liveChange.innerText = `${data.change_pct >= 0 ? '+' : ''}${data.change_pct || 0}%`;
+                    elements.liveChange.style.color = data.change_pct >= 0 ? 'var(--success)' : 'var(--danger)';
+                }
+                if (data.history) drawChart(data.history);
+            } catch (e) {}
+        }
+
+        function drawChart(history) {
+            if (!history || history.length < 2) return;
+            const svg = elements.mainSvg;
+            const w = svg.clientWidth;
+            const h = svg.clientHeight;
+            
+            const prices = history.map(d => d.close);
+            const min = Math.min(...prices);
+            const max = Math.max(...prices);
+            const range = max - min || 1;
+            
+            const points = prices.map((p, i) => {
+                const x = (i / (prices.length - 1)) * w;
+                const y = h - ((p - min) / range) * h;
+                return `${x},${y}`;
+            }).join(' ');
+
+            const isUp = prices[prices.length-1] >= prices[0];
+            const color = isUp ? '#10b981' : '#f43f5e';
+
+            // Get target/stop from elements if they exist
+            const targetVal = parseFloat(document.getElementById('stat-target').innerText.replace('₹','')) || 0;
+            const stopVal = parseFloat(document.getElementById('stat-stop').innerText.replace('₹','')) || 0;
+            
+            let extraLines = '';
+            if (targetVal > min && targetVal < max) {
+                const targetY = h - ((targetVal - min) / range) * h;
+                extraLines += `<line x1="0" y1="${targetY}" x2="${w}" y2="${targetY}" stroke="#10b981" stroke-width="1" stroke-dasharray="4,4" opacity="0.4" />`;
+            }
+            if (stopVal > min && stopVal < max) {
+                const stopY = h - ((stopVal - min) / range) * h;
+                extraLines += `<line x1="0" y1="${stopY}" x2="${w}" y2="${stopY}" stroke="#f43f5e" stroke-width="1" stroke-dasharray="4,4" opacity="0.4" />`;
+            }
+
+            svg.innerHTML = `
+                ${extraLines}
+                <polyline points="${points}" fill="none" stroke="${color}" stroke-width="2" stroke-linejoin="round" />
+                <defs>
+                    <linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="${color}" stop-opacity="0.2" />
+                        <stop offset="100%" stop-color="${color}" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+                <polygon points="0,${h} ${points} ${w},${h}" fill="url(#grad)" />
+            `;
+        }
+
+        elements.scanBtn.onclick = async () => {
+            const t = elements.tickerInput.value.trim();
+            if (!t) return;
+            elements.noData.classList.add('hidden');
+            elements.resultView.classList.add('hidden');
+            elements.processing.classList.remove('hidden');
+            try {
+                const resp = await fetch(`/scan/${t}`, { method: 'POST' });
+                const { task_id } = await resp.json();
+                poll(task_id);
+            } catch (e) {
+                elements.processing.classList.add('hidden');
+                console.error("Scan Error:", e);
+            }
+        };
+
+        async function poll(id) {
+            try {
+                const resp = await fetch(`/status/${id}`);
+                const data = await resp.json();
+                if (data.status === 'done') renderResult(data.result);
+                else setTimeout(() => poll(id), 2000);
+            } catch (e) { console.error("Polling Error:", e); }
+        }
+
+        init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+{
+  "ticker": "M&M.NS",
+  "event_type": "manual_scan",
+  "generated_at": "2026-05-16T03:06:31.035701+00:00",
+  "news": {
+    "ticker": "M&M.NS",
+    "articles_fetched": 6,
+    "sentiment_score": 0.035,
+    "news_sentiment": 0.0,
+    "social_sentiment": 0.117,
+    "summary": "News flow indicates positive sentiment. Key focus: Trump Administration Quietly Green-lights Use of \u2018Cyanide Bombs\u2019 on Public Lands.",
+    "top_headlines": [
+      "Trump Administration Quietly Green-lights Use of \u2018Cyanide Bombs\u2019 on Public Lands",
+      "Top general shares new details on how a US destroyer shot out the engine of an Iran blockade runner",
+      "Man Sentenced To Six Years In Prison For Selling Mario-Shaped Meth Pills",
+      "Legendary hacker brings eGPU compatibility to M-Series Macs",
+      "Making the Shift from Individual Contributor to Leader"
+    ],
+    "top_articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Gizmodo.com"
+        },
+        "author": "Ellyn Lapointe",
+        "title": "Trump Administration Quietly Green-lights Use of \u2018Cyanide Bombs\u2019 on Public Lands",
+        "description": "This controversial predation control tactic has been banned since 2023, but now, the Bureau of Land Management will be allowed to use it on a \"case-by-case\" basis.",
+        "url": "https://gizmodo.com/trump-administration-quietly-green-lights-use-of-cyanide-bombs-on-public-lands-2000757003",
+        "urlToImage": "https://gizmodo.com/app/uploads/2026/05/M-44-device-1200x675.jpg",
+        "publishedAt": "2026-05-11T15:55:02Z",
+        "content": "For decades, the Bureau of Land Management used so-called cyanide bombs to control predator populations on public lands. The controversial tactic was banned in 2023, but the Trump administration has \u2026 [+3250 chars]"
+      },
+      {
+        "source": {
+          "id": "business-insider",
+          "name": "Business Insider"
+        },
+        "author": "Jake Epstein",
+        "title": "Top general shares new details on how a US destroyer shot out the engine of an Iran blockade runner",
+        "description": "USS Spruance fired nine \"inert\" rounds into the engine room of the Iranian-flagged M/V Touska last weekend.",
+        "url": "https://www.businessinsider.com/new-details-how-us-destroyer-shot-engine-iran-blockade-runner-2026-4",
+        "urlToImage": "https://i.insider.com/69eb6e9da98bc8fdc096e579?width=1200&format=jpeg",
+        "publishedAt": "2026-04-24T14:13:45Z",
+        "content": "USS Spruance fired multiple rounds into the engine room of an Iranian-flagged vessel trying to run a maritime blockade.US Navy photo\r\n<ul><li>An Iranian-flagged cargo ship tried to bypass the US bloc\u2026 [+4187 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Kotaku"
+        },
+        "author": "Kenneth Shepard",
+        "title": "Man Sentenced To Six Years In Prison For Selling Mario-Shaped Meth Pills",
+        "description": "That's not what the 'M' on his hat is supposed to stand for",
+        "url": "https://kotaku.com/mario-meth-pills-drug-dealer-connecticut-prison-sentence-2000695738",
+        "urlToImage": "https://kotaku.com/app/uploads/2026/05/drmariopill.jpg",
+        "publishedAt": "2026-05-14T12:30:23Z",
+        "content": "A man in New Haven, Connecticut has been sentenced to six years in jail for distributing drugs and possessing firearms and ammo, thus violating the conditions of his supervised release after a prior \u2026 [+1486 chars]"
+      }
+    ],
+    "news_source": "newsapi"
+  },
+  "fundamentals": {
+    "ticker": "M&M.NS",
+    "company_name": "Mahindra & Mahindra Limited",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Manufacturers",
+    "description": "Mahindra & Mahindra Limited provides mobility products and farm solutions in India and internationally. It operates through five segments: Automotive; Farm Equipment; Auto Investments; Farm Investments; and Investments in Industrial Businesses and Consumer Services. The company offers commercial vehicles, trucks, buses, vans, passenger cars, utility vehicles, and electric vehicles (EV), as well as motorcycles; aero and defense products; offers construction equipment, such as rotaries, tillers, loaders, and backhoes under the Mahindra EarthMaster brand; and road construction equipment comprising motor graders under the Mahindra RoadMaster brand. It is also involved in the provision of farm equipment, including tractors under the Mahindra, Swaraj, and Trakstar brands, as well as farm mechanization solutions, such as rotavators, cultivators, harvesters, rice transplanters, balers, sprayers, and implements and attachments; and renewable energy business comprising installation of EV chargers and provision of Li-ion batteries. In addition, the company offers financial services, such as fixed deposits, retail and other loans, leasing, SME finance, housing finance, mutual funds, and life and non-life insurance broking services, as well as vehicle and equipment financing; provides logistics services; power backup solutions, including diesel and gas generators; and technology services comprising business process, integrated engineering, infrastructure and cloud, network, application development and maintenance, supply chain digital transformation, and design services. Further, it engages in the sale of timeshare and vacation ownership through its resorts; develops and sells residential properties, and engages in the development, management, and operation of commercial complexes; and processing and trading of steel for automotive, non-automotive, and power industries. The company has a strategic partnership with Embraer S.A. for the development of C-390 Millennium multi-mission military transport aircraft in India. The company was incorporated in 1945 and is headquartered in Mumbai, India.",
+    "pe_ratio": 20.8763,
+    "pb_ratio": 3.7487,
+    "market_cap_cr": 375010.07,
+    "debt_equity": 125.066,
+    "roe": 18.75,
+    "earnings_date": null,
+    "fii_dii_flow": {
+      "fii_net_crore": 4576.79,
+      "dii_net_crore": 1535.7,
+      "total_crore": 6112.49,
+      "fii_action": "BUYING",
+      "dii_action": "BUYING"
+    },
+    "is_mock": true
+  },
+  "technical": {
+    "ticker": "M&M.NS",
+    "current_price": 3123.1001,
+    "prev_close": 3173.8999,
+    "day_change_pct": -1.6,
+    "price_history": [
+      3221.6,
+      3247.3,
+      3149.7,
+      3047.7,
+      3038.4,
+      3102.4,
+      3088.1,
+      3152.3,
+      3097.5,
+      3097.5,
+      3106.5,
+      3210.8,
+      3300.8,
+      3370.7,
+      3330.4,
+      3245.9,
+      3176.0,
+      3111.8,
+      3173.9,
+      3123.1
+    ],
+    "volatility": 0.324,
+    "var_1d_pct": 3.86,
+    "rsi": 46.3063,
+    "macd": 1.1497,
+    "macd_signal": 4.0422,
+    "macd_bullish": false,
+    "sma_20": 3169.62,
+    "sma_50": 3149.858,
+    "sma_200": null,
+    "bb_upper": 3350.5283,
+    "bb_lower": 2988.7117,
+    "volume_avg_ratio": 0.7182,
+    "trend": "NEUTRAL"
+  },
+  "prediction": {
+    "ticker": "M&M.NS",
+    "signal": "NEUTRAL",
+    "confidence": 0.55,
+    "price_target": 3185.56,
+    "stop_loss": 3060.64,
+    "risk_score": 0.324,
+    "var_1d_pct": 3.86,
+    "reasoning": "NEUTRAL signal for M&M.NS: MACD bearish \u2013 weakening momentum; FIIs net buyers \u2013 institutional support; Dynamic engine score=0.5 \u2192 NEUTRAL (confidence=55.00%)",
+    "reasoning_chain": [
+      "Neutral sentiment (0.04)",
+      "RSI=46.3 in healthy range",
+      "MACD bearish \u2013 weakening momentum",
+      "FIIs net buyers \u2013 institutional support",
+      "Dynamic engine score=0.5 \u2192 NEUTRAL (confidence=55.00%)"
+    ]
+  },
+  "agent_errors": {}
+}

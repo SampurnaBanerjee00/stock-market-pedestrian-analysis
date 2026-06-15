@@ -1,0 +1,143 @@
+{
+  "ticker": "MRF.NS",
+  "event_type": "manual_scan",
+  "generated_at": "2026-05-16T03:21:41.121547+00:00",
+  "news": {
+    "ticker": "MRF.NS",
+    "articles_fetched": 8,
+    "sentiment_score": -0.013,
+    "news_sentiment": 0.0,
+    "social_sentiment": -0.043,
+    "summary": "News flow indicates cautious sentiment. Key focus: Bulgaria elections: Who\u2019s running and what\u2019s at stake?.",
+    "top_headlines": [
+      "Bulgaria elections: Who\u2019s running and what\u2019s at stake?",
+      "Balikatan 2026: U.S. Marines with MRF-D 26 conduct counter-landing live-fire exercise",
+      "Balikatan 2026: MRF-D 26, joint, allied forces simulate maritime security on Balabac Island",
+      "Multiplexed magnetic resonance imaging",
+      "U.S. Marine Corps Strengthens Arctic Readiness with Campaign - Alaska"
+    ],
+    "top_articles": [
+      {
+        "source": {
+          "id": "al-jazeera-english",
+          "name": "Al Jazeera English"
+        },
+        "author": "Al Jazeera",
+        "title": "Bulgaria elections: Who\u2019s running and what\u2019s at stake?",
+        "description": "Bulgaria has held seven national elections in the past four years because of political and social divisions.",
+        "url": "https://www.aljazeera.com/news/2026/4/17/bulgaria-elections-whos-running-and-whats-at-stake",
+        "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2026/04/33CH3VW-highres-1776427172.jpg?resize=1200%2C630&quality=80",
+        "publishedAt": "2026-04-17T12:56:29Z",
+        "content": "Bulgaria will hold a snap parliamentary election on Sunday, April 19, amid a political crisis in which weak coalitions have failed to thrive and trust in democratic elections has waned.\r\nThe election\u2026 [+7016 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Globalsecurity.org"
+        },
+        "author": "John Pike",
+        "title": "Balikatan 2026: U.S. Marines with MRF-D 26 conduct counter-landing live-fire exercise",
+        "description": "U.S. Marines with Marine Rotational Force - Darwin participated in a combined counter-landing live-fire exercise alongside service members from the Armed Forces of the Philippines, Australia Defence Force and New Zealand Defence Force, April 27, 2026.",
+        "url": "https://www.globalsecurity.org/military/library/news/2026/04/mil-260427-mcn01.htm",
+        "urlToImage": null,
+        "publishedAt": "2026-04-27T12:00:00Z",
+        "content": "US Marine Corps News\r\n27 Apr 2026 | 1st Lt. Chase Fortier Marine Rotational Force - Darwin\r\nAPORAWAN, Philippines -- U.S. Marines with Marine Rotational Force - Darwin participated in a combined coun\u2026 [+2579 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Globalsecurity.org"
+        },
+        "author": "John Pike",
+        "title": "Balikatan 2026: MRF-D 26, joint, allied forces simulate maritime security on Balabac Island",
+        "description": "U.S. Marines with Marine Rotational Force - Darwin 26, a now-certified Special-Purpose Marine Air-Ground Task Force assigned to rotational deployments in the South Pacific, participated in a live-fire assault to secure and hold Balabac Airfield in a demonstra\u2026",
+        "url": "https://www.globalsecurity.org/military/library/news/2026/05/mil-260506-mcn01.htm",
+        "urlToImage": null,
+        "publishedAt": "2026-05-06T12:00:00Z",
+        "content": "US Marine Corps News\r\n6 May 2026 | 1st Lt. Chase Fortier Marine Rotational Force - Darwin\r\nBALABAC ISLAND, Philippines -- U.S. Marines with Marine Rotational Force - Darwin 26, a now-certified Specia\u2026 [+3805 chars]"
+      }
+    ],
+    "news_source": "newsapi"
+  },
+  "fundamentals": {
+    "ticker": "MRF.NS",
+    "company_name": "MRF Limited",
+    "sector": "Consumer Cyclical",
+    "industry": "Auto Parts",
+    "description": "MRF Limited, together with its subsidiaries, engages in the manufacture and sale of rubber products in India and internationally. The company provides tires for passenger cars, two wheelers, fighter aircraft, farm, trucks, OTR, SCV, LCV, pick up, three wheeler, MCV, ICV, and tubes and valves products; rubber products, such as tubes, flaps, and tread rubber products; and manufactures specialty coatings. It also involved in the paints and coats, sports goods, and motorsports businesses. In addition, the company operates MRF T&S that provide computerized nitrogen inflation, tubeless repair, wheel alignment, wheel balancing and tire changing; MRF TireTok which offers robotic wheel alignment, vehicle safety test lane, diagnostic wheel balancing, semi-automatic tyre changer, A/C recovery and recharging, electronic headlight aligner, nitrogen generator membrane type, and special two-wheeler tire changer; MRF Tyredrome; MRF FASST that offers wheels removal and refitment, and tire mounting and de-mounting services; and MRF MuscleZone shops, as well as provides training for light and heavy commercial vehicle driving. The company was founded in 1946 and is based in Chennai, India.",
+    "pe_ratio": 22.1239,
+    "pb_ratio": 2.6012,
+    "market_cap_cr": 54558.06,
+    "debt_equity": 15.288,
+    "roe": 12.3,
+    "earnings_date": null,
+    "fii_dii_flow": {
+      "fii_net_crore": 1376.22,
+      "dii_net_crore": -1114.08,
+      "total_crore": 262.14,
+      "fii_action": "BUYING",
+      "dii_action": "SELLING"
+    },
+    "is_mock": true
+  },
+  "technical": {
+    "ticker": "MRF.NS",
+    "current_price": 128640.0,
+    "prev_close": 126455.0,
+    "day_change_pct": 1.73,
+    "price_history": [
+      139225.0,
+      139665.0,
+      137040.0,
+      134615.0,
+      132145.0,
+      132205.0,
+      130120.0,
+      130425.0,
+      129710.0,
+      129710.0,
+      129235.0,
+      128270.0,
+      130335.0,
+      129965.0,
+      130425.0,
+      128910.0,
+      126505.0,
+      126480.0,
+      126455.0,
+      128640.0
+    ],
+    "volatility": 0.167,
+    "var_1d_pct": 2.52,
+    "rsi": 43.0604,
+    "macd": -1962.8121,
+    "macd_signal": -1779.6253,
+    "macd_bullish": false,
+    "sma_20": 131004.0,
+    "sma_50": 132327.1,
+    "sma_200": null,
+    "bb_upper": 138528.905,
+    "bb_lower": 123479.095,
+    "volume_avg_ratio": 0.7537,
+    "trend": "BEARISH"
+  },
+  "prediction": {
+    "ticker": "MRF.NS",
+    "signal": "REDUCE",
+    "confidence": 0.6,
+    "price_target": 123479.1,
+    "stop_loss": 138528.9,
+    "risk_score": 0.167,
+    "var_1d_pct": 2.52,
+    "reasoning": "REDUCE signal for MRF.NS: Price below SMA20 < SMA50 \u2013 confirmed downtrend; FIIs net buyers \u2013 institutional support; Dynamic engine score=-1.5 \u2192 REDUCE (confidence=60.00%)",
+    "reasoning_chain": [
+      "Neutral sentiment (-0.01)",
+      "RSI=43.1 in healthy range",
+      "MACD bearish \u2013 weakening momentum",
+      "Price below SMA20 < SMA50 \u2013 confirmed downtrend",
+      "FIIs net buyers \u2013 institutional support",
+      "Dynamic engine score=-1.5 \u2192 REDUCE (confidence=60.00%)"
+    ]
+  },
+  "agent_errors": {}
+}

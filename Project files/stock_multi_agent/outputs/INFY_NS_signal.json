@@ -1,0 +1,144 @@
+{
+  "ticker": "INFY.NS",
+  "event_type": "manual_scan",
+  "generated_at": "2026-05-16T03:29:56.898880+00:00",
+  "news": {
+    "ticker": "INFY.NS",
+    "articles_fetched": 8,
+    "sentiment_score": 0.178,
+    "news_sentiment": 0.375,
+    "social_sentiment": -0.281,
+    "summary": "News flow indicates positive sentiment. Key focus: India produces over 1.5M CS graduates annually, but scale is no longer an advantage with the rise of AI coding tools; Infosys revamps hiring to focus on AI (Saritha Rai/Bloomberg).",
+    "top_headlines": [
+      "India produces over 1.5M CS graduates annually, but scale is no longer an advantage with the rise of AI coding tools; Infosys revamps hiring to focus on AI (Saritha Rai/Bloomberg)",
+      "Infosys Q4 Earnings Call Highlights",
+      "India tech giants struggle to shake off $115 billion rout",
+      "G-Sec 10-year yield tops 7% as oil soars",
+      "Deposit rates pick up as banks signal upward repricing cycle"
+    ],
+    "top_articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Techmeme.com"
+        },
+        "author": null,
+        "title": "India produces over 1.5M CS graduates annually, but scale is no longer an advantage with the rise of AI coding tools; Infosys revamps hiring to focus on AI (Saritha Rai/Bloomberg)",
+        "description": "Saritha Rai / Bloomberg:\nIndia produces over 1.5M CS graduates annually, but scale is no longer an advantage with the rise of AI coding tools; Infosys revamps hiring to focus on AI\u00a0 \u2014\u00a0 Companies like Infosys are running their new hires through many weeks of t\u2026",
+        "url": "https://www.techmeme.com/260416/p5",
+        "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijCupldTSHtQ/v0/1200x630.jpg",
+        "publishedAt": "2026-04-16T06:31:12Z",
+        "content": "About This Page\r\nThis is a Techmeme archive page.\r\nIt shows how the site appeared at 2:31\u00a0AM\u00a0ET, April\u00a016,\u00a02026.\r\nThe most current version of the site as always is available at our home page.\r\nTo vie\u2026 [+68 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Yahoo Entertainment"
+        },
+        "author": null,
+        "title": "Infosys Q4 Earnings Call Highlights",
+        "description": null,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_90fb7e33-9bfc-4ab5-97b7-e2abdbb1a5a1",
+        "urlToImage": null,
+        "publishedAt": "2026-04-24T04:06:34Z",
+        "content": "If you click 'Accept all', we and our partners, including 250 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us\u2026 [+1046 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "Bloomberg",
+        "title": "India tech giants struggle to shake off $115 billion rout",
+        "description": "India's top software exporters are facing investor concerns over growth, with Infosys and HCL Technologies reporting results below expectations. This downturn, exacerbated by a weak global economy and AI disruption, has led to a significant drop in the IT sec\u2026",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/india-tech-giants-struggle-to-shake-off-115-billion-rout/articleshow/130541628.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-130541625,width-1200,height-630,imgsize-26662,overlay-etmarkets/articleshow.jpg",
+        "publishedAt": "2026-04-27T01:20:27Z",
+        "content": "Earnings from Indias bellwether software services exporters have reinforced investor concerns about the sectors growth prospects, signaling that the downturn in their stocks has further to run.Infosy\u2026 [+3322 chars]"
+      }
+    ],
+    "news_source": "newsapi"
+  },
+  "fundamentals": {
+    "ticker": "INFY.NS",
+    "company_name": "Infosys Limited",
+    "sector": "Technology",
+    "industry": "Information Technology Services",
+    "description": "Infosys Limited provides consulting, technology, outsourcing, and digital services worldwide. It provides digital marketing and digital workplace, digital commerce, digital experience and interactions, and metaverse; data analytics and AI, applied AI, generative AI, and sustainability; blockchain, engineering, and Internet of Things; enterprise agile DevOps, API economy and microservices, application modernization, cloud, digital process automation, digital supply chain, Microsoft business application and cloud business, service experience transformation, energy transition, Network Transformation Services, Infrastructure Services cyber security, and quality engineering solutions; Oracle, SAP, and Saleforce solutions; Topaz, an AI-first set of services, solutions, and platforms using generative AI technologies; and Aster, a set of AI-amplified marketing services, solutions, and platforms. The company also offers Finacle, a core banking solution; Edge suite of products; Panaya platform, Infosys Equinox, Infosys Live Enterprise Suite, Infosys Wingspan, Infosys Helix, Infosys Meridian, Infosys Polycloud, Infosys Cortex, and Stater digital platforms; and Infosys McCamish, an insurance platform. It serves aerospace and defense, agriculture, automotive, chemical manufacturing, communication, consumer packaged goods, education, engineering procurement and construction, financial, healthcare, high technology, industrial manufacturing, information services and publishing, insurance, life science, logistics and distribution, media, entertainment, mining, oil and gas, private equity, professional, public, retail, semiconductor, travel, hospitality, utilities, and waste management industries. It has a strategic collaboration with Anthropic PBC, Intel, and Harness Inc. The company was formerly known as Infosys Technologies Limited and changed its name to Infosys Limited in June 2011. Infosys Limited was incorporated in 1981 and is headquartered in Bengaluru, India.",
+    "pe_ratio": 14.6198,
+    "pb_ratio": 4.9008,
+    "market_cap_cr": 452860.16,
+    "debt_equity": 9.827,
+    "roe": 31.44,
+    "earnings_date": null,
+    "fii_dii_flow": {
+      "fii_net_crore": 1610.26,
+      "dii_net_crore": 452.79,
+      "total_crore": 2063.05,
+      "fii_action": "BUYING",
+      "dii_action": "BUYING"
+    },
+    "is_mock": true
+  },
+  "technical": {
+    "ticker": "INFY.NS",
+    "current_price": 1119.0,
+    "prev_close": 1095.0,
+    "day_change_pct": 2.19,
+    "price_history": [
+      1312.6,
+      1313.2,
+      1268.6,
+      1240.6,
+      1154.6,
+      1170.3,
+      1152.1,
+      1167.5,
+      1181.8,
+      1181.8,
+      1168.4,
+      1178.1,
+      1167.2,
+      1162.7,
+      1179.2,
+      1177.0,
+      1140.3,
+      1123.1,
+      1095.0,
+      1119.0
+    ],
+    "volatility": 0.341,
+    "var_1d_pct": 3.42,
+    "rsi": 33.9963,
+    "macd": -39.9668,
+    "macd_signal": -35.3208,
+    "macd_bullish": false,
+    "sma_20": 1182.655,
+    "sma_50": 1244.76,
+    "sma_200": null,
+    "bb_upper": 1296.4595,
+    "bb_lower": 1068.8505,
+    "volume_avg_ratio": 1.3571,
+    "trend": "BEARISH"
+  },
+  "prediction": {
+    "ticker": "INFY.NS",
+    "signal": "NEUTRAL",
+    "confidence": 0.55,
+    "price_target": 1141.38,
+    "stop_loss": 1096.62,
+    "risk_score": 0.341,
+    "var_1d_pct": 3.42,
+    "reasoning": "NEUTRAL signal for INFY.NS: FIIs net buyers \u2013 institutional support; P/E=14.6 \u2013 undervalued vs market average; Dynamic engine score=0.5 \u2192 NEUTRAL (confidence=55.00%)",
+    "reasoning_chain": [
+      "Neutral sentiment (0.18)",
+      "RSI=34.0 oversold \u2013 potential reversal upward",
+      "MACD bearish \u2013 weakening momentum",
+      "Price below SMA20 < SMA50 \u2013 confirmed downtrend",
+      "FIIs net buyers \u2013 institutional support",
+      "P/E=14.6 \u2013 undervalued vs market average",
+      "Dynamic engine score=0.5 \u2192 NEUTRAL (confidence=55.00%)"
+    ]
+  },
+  "agent_errors": {}
+}

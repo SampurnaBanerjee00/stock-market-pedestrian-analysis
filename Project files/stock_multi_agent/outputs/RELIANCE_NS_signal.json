@@ -1,0 +1,141 @@
+{
+  "ticker": "RELIANCE.NS",
+  "event_type": "manual_scan",
+  "generated_at": "2026-05-16T03:05:23.585627+00:00",
+  "news": {
+    "ticker": "RELIANCE.NS",
+    "articles_fetched": 8,
+    "sentiment_score": 0.222,
+    "news_sentiment": 0.125,
+    "social_sentiment": 0.448,
+    "summary": "News flow indicates positive sentiment. Key focus: 6,000 Meters Under the Pacific, Japan Seeks Independence From China on Rare Earths.",
+    "top_headlines": [
+      "6,000 Meters Under the Pacific, Japan Seeks Independence From China on Rare Earths",
+      "Amazon\u2019s trying to turn its massive shipping operation into another AWS",
+      "Reliance Industries' Q4 profit dips 8% as Mideast war bites at oil business",
+      "Labubu propelled Pop Mart to the top. It might be its undoing.",
+      "\"Halo Infinite was intended to act as a central hub\u201d: I\u2019m digging into the alleged 343 roadmap and how ambitious its original plans for the franchise really were"
+    ],
+    "top_articles": [
+      {
+        "source": {
+          "id": "wired",
+          "name": "Wired"
+        },
+        "author": "Lorenzo Lamperti",
+        "title": "6,000 Meters Under the Pacific, Japan Seeks Independence From China on Rare Earths",
+        "description": "Tokyo is succeeding where the rest of the world has failed, reducing its reliance on Beijing for crucial rare earth elements\u2014thanks to an enormous underwater deposit discovered on a remote island.",
+        "url": "https://www.wired.com/story/under-the-pacific-japan-seeks-independence-from-china-on-rare-earths/",
+        "urlToImage": "https://media.wired.com/photos/69dfa5c37e53dbff73e9fdb2/191:100/w_1280,c_limit/2189340644",
+        "publishedAt": "2026-04-17T08:30:00Z",
+        "content": "It's called Minamitorishima, and it's a small atoll in the Pacific Ocean. It is one of the most remote islands in Japan's vast archipelago, so much so that it lies nearly 2,000 kilometers southeast o\u2026 [+4858 chars]"
+      },
+      {
+        "source": {
+          "id": "the-verge",
+          "name": "The Verge"
+        },
+        "author": "Emma Roth",
+        "title": "Amazon\u2019s trying to turn its massive shipping operation into another AWS",
+        "description": "Amazon might have a part in delivering all kinds of stuff to your door soon, as its massive shipping network opens up to other companies outside its marketplace, more directly competing with giants like DHL, UPS, and FedEx. The new Amazon Supply Chain Service\u2026",
+        "url": "https://www.theverge.com/tech/923013/amazon-supply-chain-services",
+        "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/gettyimages-1930887126.jpg?quality=90&strip=all&crop=0%2C10.659201851054%2C100%2C78.681596297892&w=1200",
+        "publishedAt": "2026-05-04T15:16:14Z",
+        "content": "<ul><li></li><li></li><li></li></ul>\r\nThe ecommerce giants new supply chain services will deliver for companies across the globe.\r\nThe ecommerce giants new supply chain services will deliver for comp\u2026 [+2671 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "ET Bureau",
+        "title": "Reliance Industries' Q4 profit dips 8% as Mideast war bites at oil business",
+        "description": "Reliance Industries reported an 8.1% drop in March quarter profit. Geopolitical issues impacted the energy business. However, telecom and retail units performed well. Full-year profit saw an 18.5% rise. Jio Platforms and Reliance Retail showcased significant \u2026",
+        "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/reliance-industries-q4-profit-dips-8-as-mideast-war-bites-at-oil-business/articleshow/130507592.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-130507592,width-1200,height-630,imgsize-34218,overlay-etmarkets/articleshow.jpg",
+        "publishedAt": "2026-04-25T03:48:48Z",
+        "content": "Reliance Industries (RIL) reported an 8.1% drop in consolidated profit after tax to 20,616 crore for the March quarter from the year before as the West Asia conflict and other disruptions squeezed th\u2026 [+5107 chars]"
+      }
+    ],
+    "news_source": "newsapi"
+  },
+  "fundamentals": {
+    "ticker": "RELIANCE.NS",
+    "company_name": "Reliance Industries Limited",
+    "sector": "Energy",
+    "industry": "Oil & Gas Refining & Marketing",
+    "description": "Reliance Industries Limited engages in the hydrocarbon exploration and production, oil and chemicals, retail, and digital service businesses worldwide. It operates through Oil to Chemicals, Oil and Gas, Retail, Digital Services, and Others segments. The company offers refining and marketing products, including liquefied petroleum gas, propylene, naphtha, gasoline, jet/aviation turbine fuel, kerosine oil, diesel, sulphur, and petroleum coke. It also provides polymers, including high-density and low-density polyethylene (PE), linear low-density PE, homopolymer, random and impact copolymer, and polyvinyl chloride; fibre intermediates, such as purified terephthalic acid, and ethylene glycols and oxide; aromatics, such as paraxylene, ortho xylene, benzene, and linear alkyl benzene and paraffin; and textiles comprising fabrics, apparel, and auto furnishings. In addition, the company offers elastomers, such as polybutadiene rubber, styrene butadiene rubber, and butyl rubber; fibre and yarn polyesters; and bioenergy solutions, consisting of compressed biogas, and pellets and briquettes. Further, it engages in oil and gas exploration and production activities; and operates various stores comprising supermarket, hypermarket, wholesale cash and carry, specialty, and online stores, as well as stores that offer apparel, beauty and cosmetics, accessories, footwear, consumer electronics, and others. Additionally, the company operates media and entertainment platforms, and Network18 and television channels; publishes magazines; and offers highway hospitality and fleet management services. It also provides digital services, including connectivity, fibre, mobile devices, apps, business, and other digital solutions. The company was founded in 1957 and is based in Mumbai, India.",
+    "pe_ratio": 22.404,
+    "pb_ratio": 2.0006,
+    "market_cap_cr": 1808479.66,
+    "debt_equity": 36.653,
+    "roe": 9.14,
+    "earnings_date": null,
+    "fii_dii_flow": {
+      "fii_net_crore": 1948.73,
+      "dii_net_crore": -1305.19,
+      "total_crore": 643.54,
+      "fii_action": "BUYING",
+      "dii_action": "SELLING"
+    },
+    "is_mock": true
+  },
+  "technical": {
+    "ticker": "RELIANCE.NS",
+    "current_price": 1336.4,
+    "prev_close": 1361.8,
+    "day_change_pct": -1.87,
+    "price_history": [
+      1363.3,
+      1353.3,
+      1362.1,
+      1343.4,
+      1327.8,
+      1365.8,
+      1388.9,
+      1425.4,
+      1430.8,
+      1430.8,
+      1463.1,
+      1463.6,
+      1437.9,
+      1436.2,
+      1435.2,
+      1388.2,
+      1364.0,
+      1358.8,
+      1361.8,
+      1336.4
+    ],
+    "volatility": 0.252,
+    "var_1d_pct": 2.67,
+    "rsi": 38.7264,
+    "macd": -1.4027,
+    "macd_signal": 7.7797,
+    "macd_bullish": false,
+    "sma_20": 1391.84,
+    "sma_50": 1379.582,
+    "sma_200": null,
+    "bb_upper": 1477.3192,
+    "bb_lower": 1306.3608,
+    "volume_avg_ratio": 1.033,
+    "trend": "NEUTRAL"
+  },
+  "prediction": {
+    "ticker": "RELIANCE.NS",
+    "signal": "NEUTRAL",
+    "confidence": 0.5,
+    "price_target": 1363.13,
+    "stop_loss": 1309.67,
+    "risk_score": 0.252,
+    "var_1d_pct": 2.67,
+    "reasoning": "NEUTRAL signal for RELIANCE.NS: MACD bearish \u2013 weakening momentum; FIIs net buyers \u2013 institutional support; Dynamic engine score=0.0 \u2192 NEUTRAL (confidence=50.00%)",
+    "reasoning_chain": [
+      "Neutral sentiment (0.22)",
+      "MACD bearish \u2013 weakening momentum",
+      "FIIs net buyers \u2013 institutional support",
+      "Dynamic engine score=0.0 \u2192 NEUTRAL (confidence=50.00%)"
+    ]
+  },
+  "agent_errors": {}
+}

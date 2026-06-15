@@ -1,0 +1,144 @@
+{
+  "ticker": "HDFCBANK.NS",
+  "event_type": "manual_scan",
+  "generated_at": "2026-05-16T03:08:04.507845+00:00",
+  "news": {
+    "ticker": "HDFCBANK.NS",
+    "articles_fetched": 8,
+    "sentiment_score": 0.137,
+    "news_sentiment": 0.125,
+    "social_sentiment": 0.164,
+    "summary": "News flow indicates positive sentiment. Key focus: Deposit rates pick up as banks signal upward repricing cycle.",
+    "top_headlines": [
+      "Deposit rates pick up as banks signal upward repricing cycle",
+      "HDFC Bank Q4 Earnings Call Highlights",
+      "Samsung, SK Hynix earn more profit than all of listed India Inc",
+      "G-Sec 10-year yield tops 7% as oil soars",
+      "Rupee hits record low of 95.85/USD as energy risk worries deepen"
+    ],
+    "top_articles": [
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "Saloni Shukla",
+        "title": "Deposit rates pick up as banks signal upward repricing cycle",
+        "description": "Bank deposit rates across the Indian banking system rose in March 2026, according to data released by the Reserve Bank of India. The weighted average domestic term deposit rate (WADTDR) on fresh rupee deposits increased by 42 basis points to 6.07% in March fr\u2026",
+        "url": "https://economictimes.indiatimes.com/industry/banking/finance/deposit-rates-pick-up-as-banks-signal-upward-repricing-cycle/articleshow/130661602.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-130650140,width-1200,height-630,imgsize-79948,overlay-etmarkets/articleshow.jpg",
+        "publishedAt": "2026-04-30T19:09:34Z",
+        "content": "(What's moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Also, ETMarkets.com is now on Telegram. For fastest new\u2026 [+330 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Yahoo Entertainment"
+        },
+        "author": null,
+        "title": "HDFC Bank Q4 Earnings Call Highlights",
+        "description": null,
+        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2957583c-843b-4bbc-86e9-2170f965ae09",
+        "urlToImage": null,
+        "publishedAt": "2026-04-18T12:34:27Z",
+        "content": "If you click 'Accept all', we and our partners, including 251 who are part of the IAB Transparency &amp; Consent Framework, will also store and / or access information on a device (in other words, us\u2026 [+1046 chars]"
+      },
+      {
+        "source": {
+          "id": "the-times-of-india",
+          "name": "The Times of India"
+        },
+        "author": "ET Bureau",
+        "title": "Samsung, SK Hynix earn more profit than all of listed India Inc",
+        "description": "South Korean chipmakers Samsung and SK Hynix collectively posted record profits of $59.7 billion in the March 2026 quarter, surpassing India Inc's aggregate profit for any previous quarter. This surge is driven by booming AI capital expenditure, with memory c\u2026",
+        "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/samsung-sk-hynix-earn-more-profit-than-all-of-listed-india-inc/articleshow/131025961.cms",
+        "urlToImage": "https://img.etimg.com/thumb/msid-131025954,width-1200,height-630,imgsize-40756,overlay-etmarkets/articleshow.jpg",
+        "publishedAt": "2026-05-12T00:07:53Z",
+        "content": "(What's moving Sensex and Nifty Track latest market news, stock tips, Budget 2025, Share Market on Budget 2025 and expert advice, on ETMarkets. Also, ETMarkets.com is now on Telegram. For fastest new\u2026 [+330 chars]"
+      }
+    ],
+    "news_source": "newsapi"
+  },
+  "fundamentals": {
+    "ticker": "HDFCBANK.NS",
+    "company_name": "HDFC Bank Limited",
+    "sector": "Financial Services",
+    "industry": "Banks - Regional",
+    "description": "HDFC Bank Limited provides banking and financial products and services to individuals and businesses in India, Bahrain, Hong Kong, Singapore, and Dubai. The company operates through Treasury, Retail Banking, Wholesale Banking, Other Banking Business, Insurance Business, and Other segments. It offers savings, salary, current, rural, public provident fund, pension, and demat accounts; fixed and recurring deposits; and safe deposit lockers, as well as offshore accounts and deposits, and overdrafts against fixed deposits. The company also provides personal, home, car, two-wheeler, business, doctor, educational, gold, consumer, and rural loans; loans against properties, securities, mutual funds, rental receivables, and assets; loans for professionals; government sponsored programs; and loans on credit card, as well as working capital and commercial/construction equipment finance, healthcare/medical equipment, commercial vehicle finance, dealer finance, and term loans. In addition, it offers credit, debit, prepaid, forex, and kisan gold cards; payment and collection, export, import, remittance, bank guarantee, letter of credit, trade, hedging, and merchant and cash management services; and insurance and investment products. Further, the company provides short term finance, bill discounting, structured finance, export credit, loan repayment, custodial, and documents collection services; online, mobile, and phone banking services; unified payment interface, immediate payment, national electronic funds transfer, and real time gross settlement services; channel financing, vendor financing, reimbursement account, money market, derivatives, employee trusts, cash surplus corporates, tax payment, and bankers to rights/public issue services; and financial solutions for supply chain partners and agricultural customers. It operates branches and automated teller machines in various cities/towns. The company was incorporated in 1994 and is headquartered in Mumbai, India.",
+    "pe_ratio": 17.1355,
+    "pb_ratio": 2.0899,
+    "market_cap_cr": 1181599.09,
+    "debt_equity": null,
+    "roe": 13.82,
+    "earnings_date": null,
+    "fii_dii_flow": {
+      "fii_net_crore": 4893.23,
+      "dii_net_crore": 1673.14,
+      "total_crore": 6566.37,
+      "fii_action": "BUYING",
+      "dii_action": "BUYING"
+    },
+    "is_mock": true
+  },
+  "technical": {
+    "ticker": "HDFCBANK.NS",
+    "current_price": 767.5,
+    "prev_close": 769.55,
+    "day_change_pct": -0.27,
+    "price_history": [
+      795.45,
+      811.75,
+      799.9,
+      784.35,
+      784.85,
+      789.8,
+      782.55,
+      779.0,
+      771.7,
+      771.7,
+      779.4,
+      772.3,
+      796.55,
+      796.05,
+      780.85,
+      763.65,
+      750.45,
+      749.6,
+      769.55,
+      767.5
+    ],
+    "volatility": 0.237,
+    "var_1d_pct": 3.27,
+    "rsi": 44.2566,
+    "macd": -11.4659,
+    "macd_signal": -11.4921,
+    "macd_bullish": true,
+    "sma_20": 779.8475,
+    "sma_50": 796.012,
+    "sma_200": null,
+    "bb_upper": 810.9862,
+    "bb_lower": 748.7088,
+    "volume_avg_ratio": 0.7009,
+    "trend": "BEARISH"
+  },
+  "prediction": {
+    "ticker": "HDFCBANK.NS",
+    "signal": "ACCUMULATE",
+    "confidence": 0.6,
+    "price_target": 810.99,
+    "stop_loss": 744.48,
+    "risk_score": 0.237,
+    "var_1d_pct": 3.27,
+    "reasoning": "ACCUMULATE signal for HDFCBANK.NS: FIIs net buyers \u2013 institutional support; P/E=17.1 \u2013 undervalued vs market average; Dynamic engine score=1.5 \u2192 ACCUMULATE (confidence=60.00%)",
+    "reasoning_chain": [
+      "Neutral sentiment (0.14)",
+      "RSI=44.3 in healthy range",
+      "MACD bullish crossover \u2013 upward momentum",
+      "Price below SMA20 < SMA50 \u2013 confirmed downtrend",
+      "FIIs net buyers \u2013 institutional support",
+      "P/E=17.1 \u2013 undervalued vs market average",
+      "Dynamic engine score=1.5 \u2192 ACCUMULATE (confidence=60.00%)"
+    ]
+  },
+  "agent_errors": {}
+}
